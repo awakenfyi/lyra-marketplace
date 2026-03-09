@@ -1,0 +1,9 @@
+{
+  "name": "lyra-guard",
+  "version": "0.1.0",
+  "description": "Inference-time shadow detection for AI responses. Catches sycophancy, template behavior, presence theater, and sophisticated authenticity patterns that training-time alignment misses.",
+  "author": {
+    "name": "Morgan Sage"
+  },
+  "keywords": ["lyra", "alignment", "sycophancy", "shadow-detection", "quality", "inference"]
+}

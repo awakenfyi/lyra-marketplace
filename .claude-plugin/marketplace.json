@@ -1,0 +1,46 @@
+{
+  "name": "lyra-labs",
+  "owner": {
+    "name": "Morgan Sage",
+    "email": "sage@artist.fyi"
+  },
+  "metadata": {
+    "description": "Inference-time coherence and shadow detection for AI responses. Built by Lyra Labs.",
+    "version": "1.0.0",
+    "pluginRoot": "./plugins"
+  },
+  "plugins": [
+    {
+      "name": "lyra",
+      "source": "./plugins/lyra",
+      "description": "Full coherence framework + shadow detection. Catches sycophancy, template behavior, presence theater, and measures response quality through the traffic light system — all without model retraining.",
+      "version": "0.2.0",
+      "author": {
+        "name": "Morgan Sage",
+        "email": "sage@artist.fyi"
+      },
+      "homepage": "https://awaken.fyi",
+      "repository": "https://github.com/awakenfyi/lyra-marketplace",
+      "license": "MIT",
+      "keywords": ["coherence", "alignment", "sycophancy", "shadow-detection", "quality", "inference"],
+      "category": "quality",
+      "tags": ["ai-quality", "sycophancy-detection", "template-detection", "coherence", "traffic-light"]
+    },
+    {
+      "name": "lyra-guard",
+      "source": "./plugins/lyra-guard",
+      "description": "Lightweight shadow detection for AI responses. Catches sycophancy, template behavior, and sophisticated authenticity patterns that training-time alignment misses.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Morgan Sage",
+        "email": "sage@artist.fyi"
+      },
+      "homepage": "https://awaken.fyi",
+      "repository": "https://github.com/awakenfyi/lyra-marketplace",
+      "license": "MIT",
+      "keywords": ["alignment", "sycophancy", "shadow-detection", "quality"],
+      "category": "quality",
+      "tags": ["ai-quality", "sycophancy-detection", "lightweight"]
+    }
+  ]
+}

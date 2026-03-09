@@ -1,0 +1,12 @@
+{
+  "name": "lyra",
+  "version": "0.2.0",
+  "description": "Inference-time coherence and shadow detection for AI responses. Catches sycophancy, template behavior, presence theater, and measures response quality through the traffic light system — all without model retraining.",
+  "author": {
+    "name": "Morgan Sage",
+    "url": "https://awaken.fyi"
+  },
+  "repository": "https://github.com/awakenfyi/lyra",
+  "license": "MIT",
+  "keywords": ["lyra", "coherence", "alignment", "sycophancy", "shadow-detection", "quality", "inference", "traffic-light"]
+}

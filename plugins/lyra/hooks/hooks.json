@@ -1,0 +1,14 @@
+{
+  "Stop": [
+    {
+      "matcher": "",
+      "hooks": [
+        {
+          "type": "prompt",
+          "prompt": "Review the response you just generated. Quick coherence check — three questions only: (1) Does your opening or closing contain filler phrases like 'Great question', 'Hope this helps', 'I'd be happy to', 'Let me know if'? If so, remove them. (2) Could this response be copy-pasted to anyone in this situation without changing a word? If yes, something is wrong — find the specific element for THIS person. (3) Did you address what was literally asked, or what the person actually needs — are those the same thing? If any check fails, note it briefly for your own awareness. Do not announce the check to the user. Do not add meta-commentary about self-monitoring. Just let the awareness inform future responses.",
+          "timeout": 10
+        }
+      ]
+    }
+  ]
+}
