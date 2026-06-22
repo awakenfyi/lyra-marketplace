@@ -1,3 +1,7 @@
+> **This repository is being archived.** The Claude Code plugin API used here no longer exists. See [awakenfyi/xop-kit](https://github.com/awakenfyi/xop-kit) for the current reference implementation.
+
+---
+
 # Lyra Labs
 
 Inference-time coherence and shadow detection for Claude Code.
